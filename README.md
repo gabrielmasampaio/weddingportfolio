@@ -1,80 +1,31 @@
-"""
+# Next.js & Cloudinary example app
 
-# Next.js Image Optimization with Cloudinary
+This example shows how to create an image gallery site using Next.js, [Cloudinary](https://cloudinary.com), and [Tailwind](https://tailwindcss.com).
 
+## Deploy your own
 
+Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or view the demo [here](https://nextconf-images.vercel.app/)
 
-This project demonstrates how to use Cloudinary with a Next.js application to optimize images for better performance. It includes the use of the `next/image` component and Cloudinary for advanced image handling.
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-cloudinary&project-name=nextjs-image-gallery&repository-name=with-cloudinary&env=NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME,CLOUDINARY_API_KEY,CLOUDINARY_API_SECRET,CLOUDINARY_FOLDER&envDescription=API%20Keys%20from%20Cloudinary%20needed%20to%20run%20this%20application.)
 
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
+## How to use
 
-## Table of Contents
+Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example::
 
+```bash
+ npx create-next-app --example with-cloudinary nextjs-image-gallery
+```
 
+```bash
+yarn create next-app --example with-cloudinary nextjs-image-gallery
+```
 
-- [Introduction](#introduction)
+```bash
+pnpm create next-app --example with-cloudinary nextjs-image-gallery
+```
 
-- [Features](#features)
+## References
 
-- [Prerequisites](#prerequisites)
-
-- [Installation](#installation)
-
-- [Usage](#usage)
-
-- [Configuration](#configuration)
-
-- [Optimization Techniques](#optimization-techniques)
-
-- [Contributing](#contributing)
-
-- [License](#license)
-
-
-
-## Introduction
-
-
-
-This project showcases how to enhance image performance in a Next.js application using Cloudinary. By integrating Cloudinary, we benefit from advanced image optimization, responsive image sizes, and CDN delivery.
-
-
-
-## Features
-
-
-
-- Image optimization using `next/image` component
-
-- Automatic resizing and lazy loading
-
-- Serving images in modern formats like WebP
-
-- Integration with Cloudinary for advanced image management
-
-- Responsive images for different screen sizes
-
-- Efficient caching and CDN delivery
-
-
-
-## Prerequisites
-
-
-
-Before you begin, ensure you have met the following requirements:
-
-
-
-- Node.js installed on your machine
-
-- A Cloudinary account (sign up for free at [Cloudinary](https://cloudinary.com/))
-
-
-
-##Contributions
-
-Contributions are welcome! Please open an issue or submit a pull request if you have any improvements or new features you'd like to add.
-License
-
-This project is licensed under the MIT License. """
+- Cloudinary API: https://cloudinary.com/documentation/transformation_reference
